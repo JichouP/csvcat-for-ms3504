@@ -1,0 +1,16 @@
+[package]
+name = "csvcat-for-ms3504"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "csvcat_for_ms3504_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "csvcat_for_ms3504"
+path = "src/main.rs"
